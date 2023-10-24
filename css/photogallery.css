@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+
+
+.container{
+    margin-bottom: 20px;
+}
+
+
+.image-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+} 
+.container h1{
+    font-size: 40px;
+    font-family:sans-serif;
+    font-weight: 600;
+    padding: 15px;
+    color: #333;
+    text-align: center;
+    text-transform: capitalize;
+}
+.container h1 span{
+    color: #fcdd36;
+}
+
+.image-container .image img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+    border-radius: 10px;
+    transition: .2s linear;
+}
+.image-container .image img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+ .container .popup-img{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: inherit;
+    display: none;
+}
+ .container .popup-img img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid #fff;
+    object-fit: cover;
+}
+ .container .popup-img span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.popup-img img{
+    width: 800px;
+    height: 500px;
+}
+
+@media (max-width:768px){
+    .container .popup-img img{
+        width: 95%;
+    }
+    .popup-img img {
+        width: 300px;
+        height: 250px;
+    }
+}
