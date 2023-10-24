@@ -50,7 +50,11 @@ img {
 #developer {
   width: 100%;
 }
-
+.content p{
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #111010;
+}
 body,html {
   font-size: 10px;
   line-height: 1.5;
@@ -143,7 +147,7 @@ html::-webkit-scrollbar-track {
 .header-icon .header-icon-hover { width: 50px; display: none; position: absolute; top: 0px; left: 0px; z-index: 99; }
 .header-icon:hover .header-icon-hover { display: inline; }
 
-.close-icon img { margin: 5px 5px 2.5px; border-radius: 100%; }
+.close-icon img { margin: 5px 5px 2.5px; border-radius: 100%; width: 40px;}
 
 
 .header .logo { width: 550px; display: flex; flex-direction: row;

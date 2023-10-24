@@ -1,0 +1,19 @@
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    height: 35px;
+    right: 30px;
+    z-index: 2;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 7px;
+    border-radius: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0, 5s ease 0s;
+    scroll-behavior: smooth;
+  }
+  .scroll-tp:hover {
+    background-color: #f7f7f7;
+    color: #000;
+  }
