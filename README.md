@@ -48,7 +48,7 @@ For questions or feedback, reach out to us on our https://codeyantra.in
 Getting Started
 To get started with this project, follow these steps:
 
-Clone the repository: git clone https://github.com/pavan77749/CodeYandra/tree/master
+Clone the repository: https://github.com/pavan77749/CodeYantra
 Open the index.html file in your web browser to view the website locally.
 Usage
 This website provides information about our committee, upcoming events, and resources for students.
@@ -65,4 +65,4 @@ Credits
 Pavan Gupta
 Yash Gupta
 Contact Information
-For questions or feedback, reach out to us on our github.com/pavan77749/CodeYandra/tree/master
+For questions or feedback, reach out to us on our https://github.com/pavan77749/CodeYantra
