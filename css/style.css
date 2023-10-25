@@ -156,7 +156,7 @@ html::-webkit-scrollbar-track {
   font-weight: bolder;
 }
 
-.header .collage-name { font-size: 26px; padding-left: 25px; margin-top: 10px; color: #f4f4f4; text-align: center;}
+.header .committee-name { font-size: 30px; padding-left: 25px; margin-top: 10px; color: #f4f4f4; text-align: center;}
 
 .header .navbar {
   float: left;
@@ -633,7 +633,7 @@ footer .content .link-boxes .box{
 }
 .content .link-boxes .box .link_name{
   color: #000000;
-  font-size: 25px;
+  font-size: 26px;
   font-weight: 400;
   margin-bottom: 25px;
   position: relative;
@@ -644,7 +644,7 @@ footer .content .link-boxes .box{
   left: 0;
   bottom: -2px;
   height: 2px;
-  width: 155px;
+  width: 130px;
   background: #000000;
 }
 .content .link-boxes .box li{
@@ -653,7 +653,7 @@ footer .content .link-boxes .box{
 }
 .content .link-boxes .box li a{
   color: #000000;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 400; text-transform: capitalize;
   text-decoration: none; 
   transition: all 0.4s ease; display: block;
@@ -671,8 +671,8 @@ footer .content .link-boxes .box{
 #logotnp{
   border-radius: 75px;
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 130px;
+  width: 130px;
 }
 
 footer .bottom-details{
